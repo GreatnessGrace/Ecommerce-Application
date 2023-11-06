@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import Layout from '../../components/layout/Layout';
 import HeroSection from '../../components/heroSection/HeroSection'
 import Filter from '../../components/filter/Filter'
+import ProductCard from "../../components/productCard/productCard";
 
 function Home() {
 
@@ -9,6 +10,7 @@ function Home() {
      <Layout>
         <HeroSection/>
         <Filter/>
+        <ProductCard/>
      </Layout>
       )
    
