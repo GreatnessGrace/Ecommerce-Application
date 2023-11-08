@@ -7,6 +7,8 @@ import Cart from './pages/cart/Cart';
 import Dashboard from './pages/admin/dashboard/Dashboard';
 import NoPage from './pages/nopage/NoPage';
 import MyState from "./context/data/myState";
+import Login from "./pages/registration/Login";
+import Signup from "./pages/registration/Signup";
 function App() {
   return (
   <MyState>
@@ -16,6 +18,8 @@ function App() {
     <Route path="/order" element={<Order/>}></Route>
     <Route path="/cart" element={<Cart/>}></Route>
     <Route path="/dashboard" element={<Dashboard/>}></Route>
+    <Route path="/login" element={<Login/>}> </Route>
+    <Route path="/signup" element={<Signup/>}> </Route>
     <Route path="/*" element={<NoPage/>}></Route>
   </Routes>
 </Router>
