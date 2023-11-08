@@ -76,7 +76,7 @@ export default function Navbar() {
                     <Link to={'/'} className="-m-2 block p-2 font-medium text-gray-900 cursor-pointer">
                       <img
                         className="inline-block w-10 h-10 rounded-full"
-                        src="\profile.jfif"
+                        src="\src\assets\profile.jfif"
                         alt="Grace" />                                        </Link>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export default function Navbar() {
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
                       className="inline-block w-10 h-10 rounded-full"
-                      src="\profile.jfif"
+                      src="\src\assets\profile.jfif"
                       alt="Grace" />
                   </a>
                 </div>
